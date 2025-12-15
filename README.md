@@ -62,6 +62,24 @@ Response -- {
 }
 }
 
+Running Locally (Without Docker)
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+
+Open:
+
+http://127.0.0.1:8000/docs
+
+Running with Docker
+docker build -t resume-ner-api .
+docker run -p 8000:8000 resume-ner-api
+
+
+Swagger UI:
+
+http://localhost:8000/docs
+
 
 
 ## *** Tech Stack ***
@@ -95,3 +113,17 @@ This ensures code changes are continuously validated before deployment.
 END_DATE
 
 If an entity is not confidently detected, the API explicitly returns an empty list, ensuring transparency.
+
+## *** Cloud Deployment (Google Cloud Run) ***
+
+The Dockerized service was test-deployed on Google Cloud Run to validate:
+
+Container compatibility
+
+Runtime configuration
+
+API accessibility in a managed cloud environment
+
+The service was later decommissioned after validation due to billing constraints, as this is a personal project.
+The setup remains fully reproducible and cloud-ready.
+
