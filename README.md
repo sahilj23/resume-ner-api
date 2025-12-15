@@ -63,6 +63,7 @@ Response -- {
 }
 
 
+
 ## *** Tech Stack ***
 
 Python 3.10
@@ -76,6 +77,9 @@ PyTorch – Backend ML framework
 Docker – Containerization
 
 GitHub Actions – CI pipeline
+
+Google Cloud Run (test deployment)
+
 
 ## *** CI/CD Overview ***
 
