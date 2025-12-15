@@ -1,0 +1,9 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.env
+
+# Model weights (DO NOT COMMIT)
+resume_ner_model/model.safetensors
+resume_ner_model/checkpoint-*
