@@ -1,4 +1,6 @@
-### Resume NER API
+# Resume NER API
+
+Note: This repository focuses on model inference and deployment; the full preprocessing, training, and evaluation pipeline is documented in the original project repository: [https://github.com/sahilj23/resume-ner-model-training]
 
 A production‑ready Resume Information Extraction API built using FastAPI, Hugging Face Transformers, Docker, and GitHub Actions (CI).
 The service performs Named Entity Recognition (NER) on resume text to extract structured work‑experience information such as role, company, start date, and end date.
