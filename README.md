@@ -19,6 +19,9 @@ Packaging the service using Docker
 
 Validating builds automatically using CI
 
+Test-deploying the service on Google Cloud Run
+
+
 ## *** Key Features *** 
 
 Fine‑tuned BERT‑based NER model for resume text
